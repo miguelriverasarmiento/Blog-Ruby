@@ -13,3 +13,88 @@
  *= require_tree .
  *= require_self
  */
+ body{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: goldenrod;
+    }
+h1 {
+    padding: 20px 0;
+    font-size: 36px;
+    color: #000;
+    font-family: 'Open Sans';
+    margin-left: 20px;
+    text-shadow: 1px 1px 1px sienna;
+    text-align: center;
+    }
+
+h3 {
+    font-size: 20px;
+    color: #000;
+    margin-left: 20px;
+    }
+
+ul {
+    border: 5px solid darkgoldenrod;
+    background: darkolivegreen;
+    width: auto;
+    margin-left: 20px;
+    
+}
+
+ul li a {
+    color: black;
+    
+}
+
+a {
+    margin-left: 20px;
+    color: black;    
+}
+
+p {
+    margin-left: 20px;
+    color: black;   
+}
+
+h2 {
+    margin-left: 20px;
+    color: black;
+}
+
+.bod {
+    background-color: rgb(185, 141, 29);
+    border: 15px solid rgb(204, 150, 13);
+    text-align: center;
+
+}
+.tit {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(150, 114, 25);
+    border: 15px solid darkgoldenrod;
+    text-align: center;
+}
+.buttons {
+    background-color: goldenrod;
+    border-bottom: 1px solid goldenrod;
+    border: 5px solid goldenrod;
+    margin-left: auto;
+}
+.commen {
+    display: flex !important;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    font-size: 25px !important;
+ }
+ .commenter {
+    border: 3px solid rgb(134, 98, 5)
+    background-color darkorange;
+    padding: .5em;
+ }
+
+ .addcom {
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+ }

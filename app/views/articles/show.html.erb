@@ -1,17 +1,17 @@
-<h1><%= @article.title %></h1>
+<h1 class="tit"><%= @article.title %></h1>
 
-<p><%= @article.body %></p>
+<p class="bod"><%= @article.body %></p>
 
-<ul>
+<ul class="buttons">
   <li><%= link_to "Edit", edit_article_path(@article) %></li>
   <li><%= link_to "Destroy", article_path(@article),
                     method: :delete,
                     data: { confirm: "Are you sure?" } %></li>
 </ul>
 
-<h2>Comments</h2>
+<h2 class="commen">Comments</h2>
 <%= render @article.comments %>
 
-<h2>Add a comment:</h2>
+<h2 class="addcom">Add a comment:</h2>
 <%= render 'comments/form' %>
 

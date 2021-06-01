@@ -98,3 +98,12 @@ h2 {
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
  }
+ .field {
+    margin-left: 20px;
+ }
+ .actions {
+    margin-left: 20px;
+ }
+ .navlogin {
+    margin-left: 20px;
+ }
